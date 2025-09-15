@@ -65,3 +65,53 @@ main{
 .hero p{
     font-size: 24px;
 }
+
+.danger{
+    color: rgb(26, 7, 7);
+    text-align: center;
+    border-radius: 10px;
+    font-size: xx-large;
+    color: white;
+}
+.danger-content{
+    font-size: large;
+    justify-content: center;
+    margin-top: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+}
+ul{
+    display: flex;
+    list-style: circle;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 60px;
+}
+.alt{
+    color: rgb(1, 14, 1);
+    text-align: center;
+
+}
+.prelude{
+    font-size: 20px;
+    justify-content: center;
+    text-align: left;
+    color: rgb(7, 39, 7);
+}
+.option{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(7, 39, 7);
+}
