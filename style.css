@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* ===== Header Section */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    background-color: rgb(7, 109, 7);
+    color: white;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
+ul a:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+main{
+    padding: 32px;
+}
+
+/* ====== Hero Section ======== */
+
+.hero{
+    padding-bottom: 48px;
+    padding-top: 64px;
+    display: flex;
+    background-color: gainsboro;
+    border-radius: 20px;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 64px;
+}
+
+.hero p{
+    font-size: 24px;
+}
